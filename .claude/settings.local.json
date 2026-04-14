@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ':*)",
+      "Bash(python -c \"import ydata_profiling; print\\('ydata-profiling OK'\\)\")",
+      "Bash(python -c \"import pandas as pd; import matplotlib; import seaborn; print\\('other libs OK'\\)\")"
+    ]
+  }
+}
